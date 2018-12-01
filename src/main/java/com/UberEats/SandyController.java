@@ -7,5 +7,6 @@ public class SandyController {
 	public static void main(String[] args) {
 		System.out.println("implmented controller");
 	}
-
+	
 }
+
