@@ -9,7 +9,7 @@ public class AshadaController {
 		
 		System.out.println(" hello!! Mahesh Babu");
 		
-		System.out.println(" hiiiii sir");
+		System.out.println(" hiiiii ");
 		
 		
 	}
