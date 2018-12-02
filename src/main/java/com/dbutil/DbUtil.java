@@ -7,7 +7,7 @@ public class DbUtil {
 	
 	public static SessionFactory getSessionFactory() {
 		
-return		new Configuration().configure().buildSessionFactory();
+return new Configuration().configure().buildSessionFactory();
 	}
 
 }
