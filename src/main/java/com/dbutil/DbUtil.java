@@ -8,6 +8,7 @@ public class DbUtil {
 		System.out.println("done db util");
 	
 		return new Configuration().configure().buildSessionFactory();
+	
 	}
 	
 
