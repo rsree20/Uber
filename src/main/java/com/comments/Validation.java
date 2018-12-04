@@ -1,5 +1,7 @@
 package com.comments;
 
+import com.mysql.jdbc.util.ResultSetUtil;
+
 public class Validation {
 
 	public boolean checkEmpty(String text) {
@@ -19,5 +21,13 @@ public class Validation {
 			return true;
 		}
 		return false;
+	}
+	public boolean isValidAadharCard() {
+		System.out.println("validation logic for adhar is here");
+		return false;
+	}
+	public void isValidPancard(String text) {
+		System.out.println("checking pancard!!");
+		System.out.println("Done with pancard validation");
 	}
 }
