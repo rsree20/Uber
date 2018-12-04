@@ -25,6 +25,6 @@ public static void main(String[] args) {
 	load.m1("raj");
 	System.out.println("ens main method");
 	
-	
+	System.out.println("ASdestudhdNml");
 }
 }
