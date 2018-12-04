@@ -14,6 +14,8 @@ public static void main(String[] args) {
 	Overloaded load=new Overloaded();
 	load.m1();
 	load.m1(10);
+	load.m1(55);
 	load.m1(10.6);
+	load.m1(67.88);
 }
 }
