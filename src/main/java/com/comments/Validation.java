@@ -8,4 +8,10 @@ public class Validation {
 		}
 		return false;
 	}
+	public boolean isvalidmail(String text) {
+		if(!text.contains("@")) {
+			return true;
+		}
+		return false;
+	}
 }
