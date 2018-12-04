@@ -6,7 +6,7 @@ public class Controller {
 	  String name="devi";
 	  validate v=new validate();
 	  System.out.println(v.checkEmpty(name));
-	  System.out.println("Controller implemented");  
+	  System.out.println("Controller implemented here!");  
 	  
   }
 }
