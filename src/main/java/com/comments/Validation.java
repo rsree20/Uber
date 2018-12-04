@@ -8,6 +8,12 @@ public class Validation {
 		}
 		return false;
 	}
+	public boolean isValidMobile(String text) {
+		if(text.length() != 10) {
+			return true;
+		}
+		return false;
+	}
 	public boolean isvalidmail(String text) {
 		if(!text.contains("@")) {
 			return true;
