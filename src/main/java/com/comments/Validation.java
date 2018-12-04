@@ -20,4 +20,8 @@ public class Validation {
 		}
 		return false;
 	}
+	public void isValidPancard(String text) {
+		System.out.println("checking pancard!!");
+		System.out.println("Done with pancard validation");
+	}
 }
