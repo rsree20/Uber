@@ -15,6 +15,7 @@ public class ValidationTest {
 		if(!text.isEmpty())
 		{
 			System.out.println(text.length());
+			System.out.println("done with finding string length");
 		}
 		else {
 			System.out.println("Field should not empty");
