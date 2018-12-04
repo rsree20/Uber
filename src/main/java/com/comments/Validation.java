@@ -8,4 +8,10 @@ public class Validation {
 		}
 		return false;
 	}
+	public boolean isValidMobile(String text) {
+		if(text.length() != 10) {
+			return true;
+		}
+		return false;
+	}
 }
