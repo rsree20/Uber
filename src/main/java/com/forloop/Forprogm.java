@@ -7,7 +7,7 @@ public class Forprogm {
 
 		
 		for (int i = 0; i <=10; i++) {
-			System.out.println("values :"+i);
+			System.out.println("value number :"+i);
 			
 		}
 	}
