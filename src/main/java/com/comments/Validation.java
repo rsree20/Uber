@@ -1,5 +1,7 @@
 package com.comments;
 
+import com.mysql.jdbc.util.ResultSetUtil;
+
 public class Validation {
 
 	public boolean checkEmpty(String text) {
@@ -18,6 +20,10 @@ public class Validation {
 		if(!text.contains("@")) {
 			return true;
 		}
+		return false;
+	}
+	public boolean isValidAadharCard() {
+		System.out.println("validation logic for adhar is here");
 		return false;
 	}
 }
