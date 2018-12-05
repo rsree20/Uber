@@ -10,5 +10,9 @@ public class TestGit {
 		
 		System.out.println("entered into TestGit::isValidMail ");
 	}
+	public void isMblValid() {
+		System.out.println("method started");
+		System.out.println("method ended");
+	}
 
 }
