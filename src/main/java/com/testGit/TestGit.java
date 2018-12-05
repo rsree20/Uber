@@ -7,4 +7,9 @@ public class TestGit {
 		System.out.println("ended");
 	}
 
+public void isMailidVaild() {
+System.out.println("Entered");
+System.out.println("Ended");
+}
+
 }
