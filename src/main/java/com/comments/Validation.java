@@ -5,6 +5,7 @@ import com.mysql.jdbc.util.ResultSetUtil;
 public class Validation {
 
 	public boolean checkEmpty(String text) {
+		System.out.println("Helo");
 		if(text == null || text.isEmpty()) {
 			return true;
 		}
