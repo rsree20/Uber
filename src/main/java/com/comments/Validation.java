@@ -6,6 +6,7 @@ public class Validation {
 
 	public boolean checkEmpty(String text) {
 		System.out.println("Helo");
+		System.out.println("Hi dfefect fixed here");
 		if(text == null || text.isEmpty()) {
 			return true;
 		}
